@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Opal Systems",
-  description: "Mind modeling for everyday life",
+  description:
+    "Opal Systems develops computational models of mental state dynamics based on active inference and machine learning.",
 };
 
 export default function RootLayout({
@@ -10,7 +11,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        style={{
+          margin: 0,
+          background: "#ffffff",
+        }}
+      >
+        {children}
+      </body>
     </html>
   );
 }

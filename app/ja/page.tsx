@@ -3,7 +3,7 @@ export default function Page() {
     <main
       style={{
         fontFamily: "system-ui, -apple-system, sans-serif",
-        padding: "48px 24px",
+        padding: "56px 24px",
         maxWidth: "880px",
         margin: "0 auto",
         lineHeight: 1.75,
@@ -11,57 +11,60 @@ export default function Page() {
       }}
     >
       <header style={{ marginBottom: 56 }}>
-        <div style={{ marginBottom: 20 }}>
-          <a href="/">English</a>
+        <div
+          style={{
+            marginBottom: 28,
+            fontSize: 14,
+            color: "#666",
+          }}
+        >
+          <a href="/">English</a> / 日本語
         </div>
 
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            gap: 16,
-            marginBottom: 24,
+            gap: 18,
+            marginBottom: 8,
           }}
         >
           <img
             src="/logo.png"
             alt="Opal Systems logo"
             style={{
-              width: 52,
-              height: 52,
-              flexShrink: 0,
+              width: 48,
+              height: 48,
             }}
           />
 
-          <div>
-            <h1
-              style={{
-                fontSize: 42,
-                margin: "0 0 6px 0",
-                fontWeight: 600,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              Opal Systems
-            </h1>
-
-            <p
-              style={{
-                fontSize: 20,
-                margin: 0,
-                color: "#222",
-              }}
-            >
-              アクティブ・インファレンスに基づく精神状態モデリング基盤
-            </p>
-          </div>
+          <h1
+            style={{
+              fontSize: 42,
+              margin: 0,
+              fontWeight: 600,
+              letterSpacing: "-0.01em",
+            }}
+          >
+            Opal Systems
+          </h1>
         </div>
+
+        <p
+          style={{
+            fontSize: 20,
+            margin: 0,
+            color: "#222",
+          }}
+        >
+          アクティブ・インファレンスに基づく精神状態モデリング基盤
+        </p>
 
         <p
           style={{
             fontSize: 14,
             color: "#666",
-            margin: 0,
+            marginTop: 14,
           }}
         >
           2026年設立 · 2025年より構想・研究開始
@@ -69,7 +72,7 @@ export default function Page() {
       </header>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>概要</h2>
+        <h2>概要</h2>
 
         <p>
           Opal Systems は、精神状態の動的変化を計算論的に記述し、
@@ -86,7 +89,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>何を作っているか</h2>
+        <h2>何を作っているか</h2>
 
         <p>
           Opal は、精神状態のダイナミクスを解釈可能なかたちでモデル化し、
@@ -105,7 +108,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>Ψモデル</h2>
+        <h2>Ψモデル</h2>
 
         <p>
           Ψモデルは、精神状態を以下の5つの解釈可能な次元で表現します。
@@ -121,7 +124,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>プレプリント</h2>
+        <h2>プレプリント</h2>
 
         <p>
           The Ψ Model: A Five-Dimensional Active-Inference State Space for
@@ -138,7 +141,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>現在の状況</h2>
+        <h2>現在の状況</h2>
 
         <ul style={{ paddingLeft: 22 }}>
           <li>2025年にコンセプト開発を開始</li>
@@ -150,7 +153,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>事業内容</h2>
+        <h2>事業内容</h2>
 
         <p>
           機械学習および計算論的精神医学の手法を用いて、
@@ -160,12 +163,14 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>連絡先</h2>
+        <h2>連絡先</h2>
 
         <p>
           Email
           <br />
-          <a href="mailto:contact@opalsystems.ai">contact@opalsystems.ai</a>
+          <a href="mailto:contact@opalsystems.ai">
+            contact@opalsystems.ai
+          </a>
         </p>
 
         <p>

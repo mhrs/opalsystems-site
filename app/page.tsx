@@ -3,7 +3,7 @@ export default function Page() {
     <main
       style={{
         fontFamily: "system-ui, -apple-system, sans-serif",
-        padding: "48px 24px",
+        padding: "56px 24px",
         maxWidth: "880px",
         margin: "0 auto",
         lineHeight: 1.75,
@@ -11,57 +11,60 @@ export default function Page() {
       }}
     >
       <header style={{ marginBottom: 56 }}>
-        <div style={{ marginBottom: 20 }}>
-          <a href="/ja">日本語</a>
+        <div
+          style={{
+            marginBottom: 28,
+            fontSize: 14,
+            color: "#666",
+          }}
+        >
+          English / <a href="/ja">日本語</a>
         </div>
 
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            gap: 16,
-            marginBottom: 24,
+            gap: 18,
+            marginBottom: 8,
           }}
         >
           <img
             src="/logo.png"
             alt="Opal Systems logo"
             style={{
-              width: 52,
-              height: 52,
-              flexShrink: 0,
+              width: 48,
+              height: 48,
             }}
           />
 
-          <div>
-            <h1
-              style={{
-                fontSize: 42,
-                margin: "0 0 6px 0",
-                fontWeight: 600,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              Opal Systems
-            </h1>
-
-            <p
-              style={{
-                fontSize: 20,
-                margin: 0,
-                color: "#222",
-              }}
-            >
-              Mental state modeling platform based on active inference
-            </p>
-          </div>
+          <h1
+            style={{
+              fontSize: 42,
+              margin: 0,
+              fontWeight: 600,
+              letterSpacing: "-0.01em",
+            }}
+          >
+            Opal Systems
+          </h1>
         </div>
+
+        <p
+          style={{
+            fontSize: 20,
+            margin: 0,
+            color: "#222",
+          }}
+        >
+          Mental state modeling platform based on active inference
+        </p>
 
         <p
           style={{
             fontSize: 14,
             color: "#666",
-            margin: 0,
+            marginTop: 14,
           }}
         >
           Founded 2026 · Concept development since 2025
@@ -69,7 +72,7 @@ export default function Page() {
       </header>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>About</h2>
+        <h2>About</h2>
 
         <p>
           Opal Systems is a research-driven project developing computational
@@ -86,7 +89,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>What we build</h2>
+        <h2>What we build</h2>
 
         <p>
           Opal is a software platform designed to model, visualize, and monitor
@@ -112,7 +115,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>Ψ framework</h2>
+        <h2>Ψ framework</h2>
 
         <p>
           The Ψ framework represents mental state using five interpretable
@@ -129,7 +132,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>Preprint</h2>
+        <h2>Preprint</h2>
 
         <p>
           The Ψ Model: A Five-Dimensional Active-Inference State Space for
@@ -146,7 +149,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>Current status</h2>
+        <h2>Current status</h2>
 
         <ul style={{ paddingLeft: 22 }}>
           <li>concept development initiated in 2025</li>
@@ -158,9 +161,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>
-          Business description
-        </h2>
+        <h2>Business description</h2>
 
         <p>
           Development of software tools and digital infrastructure for modeling,
@@ -170,12 +171,14 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>Contact</h2>
+        <h2>Contact</h2>
 
         <p>
           Email
           <br />
-          <a href="mailto:contact@opalsystems.ai">contact@opalsystems.ai</a>
+          <a href="mailto:contact@opalsystems.ai">
+            contact@opalsystems.ai
+          </a>
         </p>
 
         <p>

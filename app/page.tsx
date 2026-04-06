@@ -11,6 +11,11 @@ export default function Page() {
       }}
     >
       <header style={{ marginBottom: 56 }}>
+
+        <div style={{ marginBottom: 20 }}>
+          <a href="/ja">日本語</a>
+        </div>
+
         <img
           src="/logo.png"
           alt="Opal Systems logo"
@@ -49,10 +54,16 @@ export default function Page() {
         >
           Founded 2026 · Concept development since 2025
         </p>
+
       </header>
 
+
+
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>About</h2>
+
+        <h2 style={{ fontSize: 24, marginBottom: 12 }}>
+          About
+        </h2>
 
         <p>
           Opal Systems is a research-driven project developing computational
@@ -66,10 +77,16 @@ export default function Page() {
           <br />
           Psychiatrist, Tokyo, Japan
         </p>
+
       </section>
 
+
+
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>What we build</h2>
+
+        <h2 style={{ fontSize: 24, marginBottom: 12 }}>
+          What we build
+        </h2>
 
         <p>
           Opal is a software platform designed to model, visualize, and monitor
@@ -78,6 +95,7 @@ export default function Page() {
         </p>
 
         <ul style={{ paddingLeft: 22 }}>
+
           <li>
             modeling psychological states using interpretable latent variables
           </li>
@@ -91,30 +109,45 @@ export default function Page() {
           </li>
 
           <li>
-            supporting future applications in mental health and human-state
-            monitoring
+            supporting future applications in mental health and human-state monitoring
           </li>
+
         </ul>
+
       </section>
 
+
+
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>Ψ framework</h2>
+
+        <h2 style={{ fontSize: 24, marginBottom: 12 }}>
+          Ψ framework
+        </h2>
 
         <p>
-          The Ψ framework represents mental state using five interpretable
-          dimensions:
+          The Ψ framework represents mental state using five interpretable dimensions:
         </p>
 
         <ul style={{ paddingLeft: 22 }}>
+
           <li>Ω Order</li>
+
           <li>Ε Energy</li>
+
           <li>Π Precision</li>
+
           <li>Σ Social Coupling</li>
+
           <li>Λ Learning</li>
+
         </ul>
+
       </section>
 
+
+
       <section style={{ marginBottom: 44 }}>
+
         <h2 style={{ fontSize: 24, marginBottom: 12 }}>
           Preprint
         </h2>
@@ -124,75 +157,110 @@ export default function Page() {
         </p>
 
         <p>
+          DOI: 10.5281/zenodo.19158833
+        </p>
+
+        <p>
+
           <a
             href="/paper.pdf"
             target="_blank"
             rel="noreferrer"
           >
+
             PDF
+
           </a>
 
-          {" · "}
-
-          <a
-            href="https://doi.org/10.5281/zenodo.19158833"
-            target="_blank"
-            rel="noreferrer"
-          >
-            DOI
-          </a>
         </p>
+
       </section>
 
+
+
       <section style={{ marginBottom: 44 }}>
+
         <h2 style={{ fontSize: 24, marginBottom: 12 }}>
           Current status
         </h2>
 
         <ul style={{ paddingLeft: 22 }}>
+
           <li>concept development initiated in 2025</li>
+
           <li>prototype implementation in progress</li>
+
           <li>preparation for pilot validation</li>
+
           <li>research manuscript preparation (active inference)</li>
+
           <li>business launch as a sole proprietorship in 2026</li>
+
         </ul>
+
       </section>
 
+
+
       <section style={{ marginBottom: 44 }}>
+
         <h2 style={{ fontSize: 24, marginBottom: 12 }}>
           Business description
         </h2>
 
         <p>
           Development of software tools and digital infrastructure for modeling,
-          visualization, and monitoring of human mental-state dynamics using
-          machine learning and computational psychiatry approaches.
+          visualization, and monitoring of human mental-state dynamics using machine learning
+          and computational psychiatry approaches.
         </p>
+
       </section>
 
+
+
       <section style={{ marginBottom: 44 }}>
-        <h2 style={{ fontSize: 24, marginBottom: 12 }}>Contact</h2>
+
+        <h2 style={{ fontSize: 24, marginBottom: 12 }}>
+          Contact
+        </h2>
 
         <p>
-          Email:
+
+          Email
+
           <br />
+
           <a href="mailto:contact@opalsystems.ai">
+
             contact@opalsystems.ai
+
           </a>
+
         </p>
 
+
+
         <p>
-          LinkedIn:
+
+          LinkedIn
+
           <br />
+
           <a
             href="https://www.linkedin.com/in/hirosemasayoshi/"
             target="_blank"
             rel="noreferrer"
           >
+
             linkedin.com/in/hirosemasayoshi
+
           </a>
+
         </p>
+
       </section>
+
+
 
       <footer
         style={{
@@ -201,8 +269,11 @@ export default function Page() {
           color: "#666",
         }}
       >
+
         © 2026 Opal Systems / Masayoshi Hirose
+
       </footer>
+
     </main>
   );
 }

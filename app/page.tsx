@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <mainw
+    <main
       style={{
         fontFamily: "system-ui, -apple-system, sans-serif",
         padding: "56px 24px",
@@ -76,9 +76,7 @@ export default function Page() {
 
         <p>
           Opal Systems is a research-driven project developing computational
-          models of mental state dynamics. The platform represents psychological
-          states as a continuous low-dimensional space and enables longitudinal
-          tracking using multimodal behavioral data.
+          models of mental state dynamics.
         </p>
 
         <p>
@@ -92,34 +90,34 @@ export default function Page() {
         <h2>Research focus</h2>
 
         <p>
-          Opal is a software platform designed to model, visualize, and monitor
-          mental-state dynamics in an interpretable form suitable for research
-          and future clinical applications.
+          Opal develops computational models of mental-state dynamics grounded in active inference.
         </p>
 
         <ul style={{ paddingLeft: 22 }}>
           <li>
-            modeling psychological states using interpretable latent variables
+            interpretable low-dimensional representation of psychological states
           </li>
+
           <li>
-            integrating behavioral, linguistic, and contextual multimodal data
+            integration of multimodal behavioral, linguistic, and contextual data
           </li>
+
           <li>
-            visualizing longitudinal mental-state trajectories
+            longitudinal modeling of mental-state trajectories
           </li>
+
           <li>
-            supporting future applications in mental health and human-state
-            monitoring
+            future applications in mental health and human-state monitoring
           </li>
         </ul>
+
       </section>
 
       <section style={{ marginBottom: 44 }}>
         <h2>Ψ framework</h2>
 
         <p>
-          The Ψ framework represents mental state using five interpretable
-          dimensions:
+          Mental state is represented using five interpretable dimensions:
         </p>
 
         <ul style={{ paddingLeft: 22 }}>
@@ -161,35 +159,21 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2>Business description</h2>
-
-        <p>
-          Development of software tools and digital infrastructure for modeling,
-          visualization, and monitoring of human mental-state dynamics using
-          machine learning and computational psychiatry approaches.
-        </p>
-      </section>
-
-      <section style={{ marginBottom: 44 }}>
         <h2>Contact</h2>
 
         <p>
-          Email
-          <br />
           <a href="mailto:contact@opalsystems.ai">
             contact@opalsystems.ai
           </a>
         </p>
 
         <p>
-          LinkedIn
-          <br />
           <a
             href="https://www.linkedin.com/in/hirosemasayoshi/"
             target="_blank"
             rel="noreferrer"
           >
-            linkedin.com/in/hirosemasayoshi
+            LinkedIn
           </a>
         </p>
       </section>

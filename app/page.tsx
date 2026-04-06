@@ -116,6 +116,40 @@ export default function Page() {
 
           <li>Λ Learning</li>
         </ul>
+
+<section style={{ marginBottom: 44 }}>
+  <h2 style={{ fontSize: 24, marginBottom: 12 }}>
+    Paper
+  </h2>
+
+  <p>
+    The theoretical foundation of Opal is described in the following
+    preprint:
+  </p>
+
+  <p>
+    <a
+      href="/paper.pdf"
+      target="_blank"
+      rel="noreferrer"
+    >
+      The Ψ Model: A Five-Dimensional Active-Inference State Space for Mental-State Dynamics (PDF)
+    </a>
+  </p>
+
+  <p style={{ fontSize: 14, color: "#666" }}>
+    DOI:
+    <br />
+    <a
+      href="https://doi.org/10.5281/zenodo.19158833"
+      target="_blank"
+      rel="noreferrer"
+    >
+      https://doi.org/10.5281/zenodo.19158833
+    </a>
+  </p>
+</section>
+        
       </section>
 
       <section style={{ marginBottom: 44 }}>

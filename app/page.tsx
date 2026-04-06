@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <main
+    <mainw
       style={{
         fontFamily: "system-ui, -apple-system, sans-serif",
         padding: "56px 24px",
@@ -89,7 +89,7 @@ export default function Page() {
       </section>
 
       <section style={{ marginBottom: 44 }}>
-        <h2>What we build</h2>
+        <h2>Research focus</h2>
 
         <p>
           Opal is a software platform designed to model, visualize, and monitor

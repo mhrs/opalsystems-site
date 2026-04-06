@@ -107,49 +107,41 @@ export default function Page() {
 
         <ul style={{ paddingLeft: 22 }}>
           <li>Ω Order</li>
-
           <li>Ε Energy</li>
-
           <li>Π Precision</li>
-
           <li>Σ Social Coupling</li>
-
           <li>Λ Learning</li>
         </ul>
+      </section>
 
-<section style={{ marginBottom: 44 }}>
-  <h2 style={{ fontSize: 24, marginBottom: 12 }}>
-    Paper
-  </h2>
+      <section style={{ marginBottom: 44 }}>
+        <h2 style={{ fontSize: 24, marginBottom: 12 }}>
+          Preprint
+        </h2>
 
-  <p>
-    The theoretical foundation of Opal is described in the following
-    preprint:
-  </p>
+        <p>
+          The Ψ Model: A Five-Dimensional Active-Inference State Space for Mental-State Dynamics
+        </p>
 
-  <p>
-    <a
-      href="/paper.pdf"
-      target="_blank"
-      rel="noreferrer"
-    >
-      The Ψ Model: A Five-Dimensional Active-Inference State Space for Mental-State Dynamics (PDF)
-    </a>
-  </p>
+        <p>
+          <a
+            href="/paper.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            PDF
+          </a>
 
-  <p style={{ fontSize: 14, color: "#666" }}>
-    DOI:
-    <br />
-    <a
-      href="https://doi.org/10.5281/zenodo.19158833"
-      target="_blank"
-      rel="noreferrer"
-    >
-      https://doi.org/10.5281/zenodo.19158833
-    </a>
-  </p>
-</section>
-        
+          {" · "}
+
+          <a
+            href="https://doi.org/10.5281/zenodo.19158833"
+            target="_blank"
+            rel="noreferrer"
+          >
+            DOI
+          </a>
+        </p>
       </section>
 
       <section style={{ marginBottom: 44 }}>
@@ -159,13 +151,9 @@ export default function Page() {
 
         <ul style={{ paddingLeft: 22 }}>
           <li>concept development initiated in 2025</li>
-
           <li>prototype implementation in progress</li>
-
           <li>preparation for pilot validation</li>
-
           <li>research manuscript preparation (active inference)</li>
-
           <li>business launch as a sole proprietorship in 2026</li>
         </ul>
       </section>
@@ -204,15 +192,6 @@ export default function Page() {
             linkedin.com/in/hirosemasayoshi
           </a>
         </p>
-
-        {/* optional */}
-        {/*
-        <p>
-          ORCID:
-          <br />
-          https://orcid.org/XXXX-XXXX-XXXX-XXXX
-        </p>
-        */}
       </section>
 
       <footer
